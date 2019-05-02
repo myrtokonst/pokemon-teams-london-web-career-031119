@@ -5,7 +5,7 @@ const teamList = document.querySelector('main')
 //fetch data
 // const getPokemon= () => fetch(TRAINERS_URL).then(resp => resp.json())
 const getTrainers = () => {
-  debugger
+  // debugger
   return fetch(TRAINERS_URL).then(resp => resp.json())
 }
 
